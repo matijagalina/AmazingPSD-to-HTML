@@ -9,3 +9,9 @@ main {
     display: -ms-grid;
     grid-template-rows: 900px 500px 1030px 900px 515px 600px;
 }
+
+header {
+    grid-row: 1 / 2;
+    background: url(src/img/header.png);
+    background-repeat: no-repeat; 
+}
