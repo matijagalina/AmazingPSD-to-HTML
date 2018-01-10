@@ -4,9 +4,9 @@
     padding: 0;
 }
 
+/* .................... SETTING THE GRID UP ............................ */
 main {
     display: grid;
-    display: -ms-grid;
     grid-template-rows: 900px 500px 1030px 900px 515px 600px;
 }
 
@@ -14,4 +14,34 @@ header {
     grid-row: 1 / 2;
     background: url(src/img/header.png);
     background-repeat: no-repeat; 
+}
+
+.about-me {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery {
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template: repeat (2. 1fr) / repeat(4, 1fr);
+}
+
+.music {
+    grid-row: 4 / 5;
+    display: grid;
+    grid-template-columns: repeat (2. 1fr) / repeat(4, 1fr);
+}
+
+.social {
+    grid-row: 5 / 6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer {
+    grid-row: 6 / 7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
