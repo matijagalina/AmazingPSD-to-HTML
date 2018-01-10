@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    display: -ms-grid;
+    grid-template-rows: 900px 500px 1030px 900px 515px 600px;
+}
