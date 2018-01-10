@@ -7,7 +7,7 @@
 /* .................... SETTING THE GRID UP ............................ */
 main {
     display: grid;
-    grid-template-rows: 900px 500px 1030px 900px 515px 600px;
+    grid-template: 900px 500px 1030px 900px 515px 600px / 1fr;
 }
 
 header {
