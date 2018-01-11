@@ -4,17 +4,19 @@
     padding: 0;
 }
 
-/* .................... SETTING THE GRID UP ............................ */
+/* .................... SETTING THE MAIN GRID UP ....................... */
 main {
     display: grid;
     grid-template: 900px 500px 1030px 900px 515px 600px / 1fr;
 }
 
+/* ................................HEADER............................... */
+
 header {
     grid-row: 1 / 2;
-    background: url(src/img/header.png);
-    background-repeat: no-repeat; 
 }
+
+/* .............................. ABOUT ME ............................. */
 
 .about-me {
     grid-row: 2 / 3;
@@ -22,11 +24,15 @@ header {
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* ............................... GALLERY ............................. */
+
 .gallery {
     grid-row: 3 / 4;
     display: grid;
     grid-template: repeat (2. 1fr) / repeat(4, 1fr);
 }
+
+/* ............................... MUSIC ............................... */
 
 .music {
     grid-row: 4 / 5;
@@ -34,14 +40,20 @@ header {
     grid-template-columns: repeat (2. 1fr) / repeat(4, 1fr);
 }
 
+/* ............................... SOCIAL .............................. */
+
 .social {
     grid-row: 5 / 6;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* ............................... FOOTER .............................. */
+
 footer {
     grid-row: 6 / 7;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+/* ........................... MEDIA QUERIES ........................... */
