@@ -27,18 +27,12 @@ header img {
 
 .logo {
     grid-area: 2 / 2 / 3 / 3;
-    display: flex;
-    justify-content: flex-start;
-}
-
-logo img {
-    object-fit: contain;
 }
 
 nav {
     grid-area: 2 / 5 / 3 / 6;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 nav ul {
