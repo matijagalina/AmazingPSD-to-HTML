@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 2px solid black;
 }
 
 /* .................... SETTING THE MAIN GRID UP ....................... */
@@ -14,6 +15,7 @@ main {
 
 header {
     grid-row: 1 / 2;
+    background-color: blue;
 }
 
 /* .............................. ABOUT ME ............................. */
@@ -22,6 +24,7 @@ header {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: gray;
 }
 
 /* ............................... GALLERY ............................. */
@@ -30,6 +33,7 @@ header {
     grid-row: 3 / 4;
     display: grid;
     grid-template: repeat (2. 1fr) / repeat(4, 1fr);
+    background-color: brown;
 }
 
 /* ............................... MUSIC ............................... */
@@ -38,6 +42,7 @@ header {
     grid-row: 4 / 5;
     display: grid;
     grid-template-columns: repeat (2. 1fr) / repeat(4, 1fr);
+    background-color: green;
 }
 
 /* ............................... SOCIAL .............................. */
@@ -46,6 +51,7 @@ header {
     grid-row: 5 / 6;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: yellow;
 }
 
 /* ............................... FOOTER .............................. */
@@ -54,6 +60,7 @@ footer {
     grid-row: 6 / 7;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: darksalmon;
 }
 
 /* ........................... MEDIA QUERIES ........................... */
