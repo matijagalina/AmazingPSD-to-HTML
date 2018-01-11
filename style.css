@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 2px solid black;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 /* .................... SETTING THE MAIN GRID UP ....................... */
@@ -15,7 +15,41 @@ main {
 
 header {
     grid-row: 1 / 2;
-    background-color: blue;
+    display: grid;
+    grid-template: 1fr 80px 1fr 6fr / minmax(20px, 210px) 80px repeat(2, 1fr) 80px minmax(20px, 210px);
+}
+
+header img {
+    grid-area: 1 / 1 / 6 / 7;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    justify-content: flex-start;
+}
+
+logo img {
+    object-fit: contain;
+}
+
+nav {
+    grid-area: 2 / 5 / 3 / 6;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+
+}
+
+.title {
+    grid-area: 4 / 2 / 5 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* .............................. ABOUT ME ............................. */
@@ -64,3 +98,8 @@ footer {
 }
 
 /* ........................... MEDIA QUERIES ........................... */
+
+@media only screen and (max-width:1000px) {
+    main {
+        grid-template: 600px 500px 1030px 900px 515px 600px / 1fr;
+}
