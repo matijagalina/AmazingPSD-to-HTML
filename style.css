@@ -39,21 +39,61 @@ header img {
     justify-content: center;
 }
 
+/* --------- NAVIGATION ---------- */
 nav {
     grid-area: 2 / 4 / 3 / 5;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.nav-button {
+    background-color: transparent;
+    cursor: pointer;
+    transition: 100ms;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button:hover {
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.nav-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: rgba(249, 249, 249, 0.2);
+    z-index: 1;
+    padding: 20px;
+}
+
+.nav-content a {
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    font-size: 1.3rem;
+}
+
+.nav-content a:hover {
+    text-decoration: underline;
+}
+
+.show {
+    display: block;
 }
 
 .title {
     grid-area: 4 / 2 / 5 / 3;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    margin-top: 90px; 
 }
 
 .title h1 {
     font-size: 51px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .title p {

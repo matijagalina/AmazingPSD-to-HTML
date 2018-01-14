@@ -17,12 +17,17 @@
             <img src="src/img/logo.png" alt="black square with diagonal white line">
         </div>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Gallery</li>
-                <li>Music</li>
-                <li>Contact</li>
-            </ul>
+            <a>
+                <img onclick="runMenu()" class="nav-button" src="src/img/hamburger.svg" alt="hamburger menu svg">
+            </a>
+            <div id="nav-items" class="nav-content">
+                <a href="#">Home</a>
+                <a href="#aboutMe">About me</a>
+                <a href="#myGallery">My Photography</a>
+                <a href="#myMusic">My Music</a>
+                <a href="#contact">Contact me</a>
+
+            </div>
         </nav>
         <div class="title">
             <h1>
@@ -35,7 +40,7 @@
             </p>
         </div>
     </header>
-    <article class="about-me">
+    <article id="aboutMe" class="about-me">
         <div class="about-me-img">
             <img class="resp-img" src="src/img/about-me-img.png" alt="skier portrait upfront">
         </div>
@@ -46,7 +51,7 @@
             </p>
         </div>
     </article>
-    <section class="gallery">
+    <section id="myGallery" class="gallery">
         <div class="gallery-first">
             <img class="resp-img" src="src/img/ropeway.png" alt="ropeway in the snowy mountains">
         </div>
@@ -74,7 +79,7 @@
             <img src="src/img/skiing-equipment.png" alt="skiing-equipment on the wall" class="resp-img">
         </div>
     </section>
-    <section class="music">
+    <section id="myMusic" class="music">
         <div class="music-player">
 
         </div>
@@ -104,7 +109,7 @@
             </button>
         </div>
     </section>
-    <footer>
+    <footer id="contact">
         <div class="footer-summary">
             <h4>
                 AMAZING DUDE. AMAZING LIFE.
@@ -146,5 +151,27 @@
             <div></div>
         </div>
     </footer>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function runMenu() {
+    document.getElementById("nav-items").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.nav-button')) {
+
+    var dropdowns = document.getElementsByClassName("nav-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>
