@@ -20,6 +20,16 @@ button {
     height: 100%;
 }
 
+.social-btn {
+    display: inline;
+    background-color: transparent;
+    color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    border-radius: 10px;
+    text-decoration: none;
+    max-width: 200px;
+}
+
 /* ...................................................................... */
 header {
     grid-area: 1 / 1 / 2 / 2;
