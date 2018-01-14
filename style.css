@@ -121,6 +121,7 @@ nav::after {
 
 .about-me-img {
     grid-area: 1 / 1 / 2 / 2;
+    display: flex;
 }
 
 .about-me-text {
@@ -154,22 +155,27 @@ nav::after {
 
 .gallery-first {
     grid-area: 1 / 1 / 2 / 2;
+    display: flex;
 }
 
 .gallery-second {
     grid-area: 1 / 2 / 2 / 3;
+    display: flex;
 }
 
 .gallery-third {
     grid-area: 1 / 3 / 2 / 4;
+    display: flex;
 }
 
 .gallery-fourth {
     grid-area: 1 / 4 / 2 / 5;
+    display: flex;
 }
 
 .gallery-fifth {
     grid-area: 2 / 3 / 3 / 4;
+    display: flex;
 }
 
 .instagram {
@@ -192,6 +198,7 @@ nav::after {
 
 .music-img {
     grid-area: 1 / 2 / 3 / 5;
+    display: flex;
 }
 
 .music-player {
