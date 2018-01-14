@@ -184,6 +184,17 @@ nav::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 20px;
+    margin-left: 20%;
+    max-width: 70%;
+}
+
+.instagram h4 {
+    margin-bottom: 10px;
+}
+
+.instagram p {
+    font-size: 30px;
 }
 
 /* ..................................................................... */
