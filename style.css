@@ -148,7 +148,7 @@ nav::after {
     max-width: 70%;
 }
 
-.about-me-text h4 {
+.about-me-text h3 {
     margin-left: 50px;
     margin-bottom: 10px;
 }
@@ -204,7 +204,7 @@ nav::after {
     max-width: 70%;
 }
 
-.instagram h4 {
+.instagram h3 {
     margin-bottom: 10px;
 }
 
@@ -231,6 +231,14 @@ nav::after {
     grid-area: 1 / 2 / 2 / 3;
     background-color:#212227;
     z-index: 2;
+    display: flex;
+}
+
+.music-player-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
 }
 
 .spotify {
@@ -251,7 +259,7 @@ nav::after {
     max-width: 70%;
 }
 
-.spotify-txt h4 {
+.spotify-txt h3 {
     margin-bottom: 10px;
 }
 
@@ -269,7 +277,7 @@ nav::after {
     max-width: 70%;
 }
 
-.itunes-txt h4 {
+.itunes-txt h3 {
     margin-left: 50px;
     margin-bottom: 10px;
 }
@@ -289,7 +297,7 @@ footer {
     background-color:#212227;
 }
 
-footer h4 {
+footer h3 {
     color: #f9f9f9;
 }
 
