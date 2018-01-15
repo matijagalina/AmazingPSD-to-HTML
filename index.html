@@ -87,17 +87,19 @@
             <img src="src/img/music.png" alt="woman with headphones" class="resp-img">
         </div>
         <div class="spotify">
-            <h4>
-                SPOTIFY
-            </h4>
-            <p>
-                follow me, stream and add my songs to your Spotify playlist.
-            </p>
-            <a class="social-btn" href="#">
-                Follow me on Spotify
-            </a>
+            <div class="spotify-txt">
+                <h4>
+                    SPOTIFY
+                </h4>
+                <p>
+                    Follow me, stream and add my songs to your Spotify playlist.
+                </p>
+                <a class="social-btn" href="#">
+                    Follow me on Spotify
+                </a>
+            </div>
         </div>
-        <div class="itunes">
+        <div class="itunes-txt">
             <h4>
                 ITUNES
             </h4>
@@ -151,27 +153,28 @@
             <div></div>
         </div>
     </footer>
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function runMenu() {
-    document.getElementById("nav-items").classList.toggle("show");
-}
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function runMenu() {
+            document.getElementById("nav-items").classList.toggle("show");
+        }
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.nav-button')) {
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.nav-button')) {
 
-    var dropdowns = document.getElementsByClassName("nav-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+                var dropdowns = document.getElementsByClassName("nav-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 </body>
+
 </html>
