@@ -48,6 +48,11 @@ header img {
     justify-content: center;
 }
 
+.logo img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 /* --------- NAVIGATION ---------- */
 nav {
     grid-area: 2 / 4 / 3 / 5;
