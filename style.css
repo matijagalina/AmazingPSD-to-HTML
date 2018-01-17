@@ -401,6 +401,15 @@ footer .fa {
     color: #919191;
 }
 
+.footer-sponsor {
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsor-box {
+    display: flex;
+}
+
 .sponsor-box div {
     border: 1px solid #f9f9f9;
     display: inline-block;
