@@ -731,6 +731,10 @@ footer .fa {
         padding: 10px;
         justify-content: flex-start;
     }
+
+    .resp-img {
+        max-height: 100%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
