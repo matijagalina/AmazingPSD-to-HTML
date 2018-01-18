@@ -1,6 +1,6 @@
 Translating the "amazing.psd" file into the working website up to 1600px width.
 
-[Source](https://drive.google.com/file/d/1V_raUjpcZygodilIkPttXf3d6dOxZoki/view?usp=sharing)
+[PSD Source](https://drive.google.com/file/d/1V_raUjpcZygodilIkPttXf3d6dOxZoki/view?usp=sharing)
 
 Version 1: Developing the website using CSS Grid.  - FINISHED! - [Codepen link](https://codepen.io/matijagalina/full/jYQxKr/)
 
