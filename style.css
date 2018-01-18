@@ -408,16 +408,18 @@ footer .fa {
 
 .sponsor-box {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .sponsor-box div {
     border: 1px solid #f9f9f9;
-    display: inline-block;
-    float: left;
+    display: inline-flex;
     margin: 10px 20px 10px 0;
     padding: 30px 20px;
     color: #f9f9f9;
     font-weight: 600;
+    overflow: hidden;
 }
 /* .......................... MEDIA QUERIES ............................ */
 
