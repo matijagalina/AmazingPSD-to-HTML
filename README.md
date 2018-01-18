@@ -1,4 +1,4 @@
-Translating the "amazing.psd" file into the working website.
+Translating the "amazing.psd" file into the working website up to 1600px width.
 
 [Source](https://drive.google.com/file/d/1V_raUjpcZygodilIkPttXf3d6dOxZoki/view?usp=sharing)
 
